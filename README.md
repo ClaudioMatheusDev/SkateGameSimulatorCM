@@ -32,16 +32,24 @@ Este é um projeto de jogo de skate em 2D desenvolvido com Unity Engine. O jogo 
 
 ```
 Assets/
+├── Animations/          # Animações e controladores
+│   ├── Controllers/
+│   │   └── Movimento.controller   # Controlador de animações
+│   ├── Skating.anim              # Animação de movimento
+│   └── Pulo.anim                 # Animação de pulo
+├── Prefabs/             # Prefabs reutilizáveis
+│   └── colisao.prefab            # Prefab de colisão
 ├── Scenes/              # Cenas do jogo
-├── Script/              # Scripts C#
-│   ├── PlayerController.cs    # Controle do jogador
-│   └── FloorCollider.cs       # Detecção de chão
-├── Sprites/             # Sprites do jogador
-│   └── pixilart-skating/      # Arte do skatista
-└── Animações/           # Controladores e animações
-    ├── Movimento.controller
-    ├── Skating.anim
-    └── Pulo.anim
+│   └── SampleScene.unity         # Cena principal
+├── Scripts/             # Scripts C#
+│   ├── PlayerController.cs       # Controle do jogador
+│   └── FloorCollider.cs          # Detecção de chão
+└── Sprites/             # Sprites e arte
+    └── Player/
+        └── pixilart-skating/     # Arte do skatista
+            ├── FLIP/             # Sprites de flip
+            ├── JUMPING/          # Sprites de pulo
+            └── SKATING/          # Sprites de movimento
 ```
 
 ## 🚀 Como Executar
