@@ -1,5 +1,7 @@
 # 🛹 Skate Game Simulator
 
+![Capa do Skate Game Simulator](Images/SkateGameSimulatorCM_capa.png)
+
 Um jogo 2D de simulação de skate desenvolvido em Unity, onde o jogador controla um skatista realizando manobras e movimentos.
 
 ## 📋 Descrição
